@@ -14,7 +14,7 @@ This project uses multiple tools for fully managed workflow. Here is a list of t
 * [blink](https://1axen.github.io/blink/) - optimized networking code generation
 
 ## Primary packages/libraries
-This object focuses on the ECS paradigm, which requires more than just Roblox. Here is a list of most important packages:
+This project focuses on the ECS paradigm, which requires more than just Roblox. Here is a list of most important packages:
 * [Vide](https://centau.github.io/vide/) - reactive UI library
 * [jecs](https://ukendio.github.io/jecs/) - ECS library
 
