@@ -1,0 +1,18 @@
+# Argon
+/sourcemap.json
+
+# Wally
+/Packages
+
+# Artifacts
+/*.lock
+/*.rbxl
+/*.rbxlx
+/*.rbxm
+/*.rbxmx
+
+# Misc
+.DS_Store
+build
+dev
+net/**.luau

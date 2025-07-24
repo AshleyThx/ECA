@@ -1,0 +1,21 @@
+[package]
+name = "ashthx/eca"
+description = "Simple Roblox adventure game"
+version = "0.1.0"
+license = "GPL-3.0"
+registry = "https://github.com/UpliftGames/wally-index"
+authors = ["AshleyThx"]
+repository = "https://github.com/AshleyThx/ECA"
+realm = "shared"
+private = true
+
+[dependencies]
+react = "jsdotlua/react@17.2.1"
+react-roblox = "jsdotlua/react-roblox@17.2.1"
+jecs = "ukendio/jecs@0.8.3"
+jabby = "alicesaidhi/jabby@0.3.1"
+planck = "yetanotherclown/planck@0.2.0"
+
+[server-dependencies]
+
+[dev-dependencies]

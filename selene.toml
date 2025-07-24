@@ -1,0 +1,18 @@
+std = "roblox"
+
+exclude = [
+	"net/**",
+	"Packages/**",
+	"include/**",
+	"build/**",
+	"dev/**",
+	"dfiles/**",
+]
+
+[lints]
+multiple_statements = "allow"
+incorrect_standard_library_use = "allow"
+mixed_table = "allow"
+
+[config]
+global_usage = { ignore_pattern = "__[A-Za-z0-9]+__" }

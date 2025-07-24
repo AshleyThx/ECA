@@ -1,0 +1,14 @@
+{
+	"luau-lsp.sourcemap.generatorCommand": "argon sourcemap --output sourcemap.json",
+	"luau-lsp.ignoreGlobs": [
+		"net/**",
+		"Packages/**",
+		"include/**",
+		"build/**",
+		"dev/**",
+		"dfiles/**",
+	],
+	"luau-lsp.types.definitionFiles": [
+		"dfiles/.d.luau"
+	]
+}

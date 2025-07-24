@@ -1,0 +1,36 @@
+{
+  "legacyScripts": false,
+  "gameId": 8240299176,
+  "name": "ECA",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared",
+        "net": {
+          "$path": "net/types.luau"
+        }
+      },
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Include": {
+        "$path": "include"
+      },
+      "ClientCore": {
+        "$path": "src/client",
+        "net": {
+          "$path": "net/client.luau"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "ServerCore": {
+        "$path": "src/server",
+        "net": {
+          "$path": "net/server.luau"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+option Casing = Snake
+option TypesOutput = "types.luau"
+option ServerOutput = "server.luau"
+option ClientOutput = "client.luau"
+option Typescript = false
+option UsePolling = true
+option SyncValidation = true
+option WriteValidations = true
+option ManualReplication = true
+option RemoteScope = "NETWORK"
+
+event Test {
+    From: Client,
+    Type: Reliable,
+    Call: Polling,
+    Data: u8[]
+}
