@@ -4,6 +4,9 @@ local fs = require("@lune/fs")
 if fs.isDir("dev") then fs.removeDir("dev") end
 fs.copy("src", "dev")
 
+process.exec("wally", {
+	"install",
+}, { stdio = "forward" })
 process.create("argon", {
 	"sourcemap",
 	"--output",
